@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520646D01FCAEC5F003A44A7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520646CF1FCAEC5F003A44A7 /* AppDelegate.m */; };
+		520646D31FCAEC5F003A44A7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520646D21FCAEC5F003A44A7 /* ViewController.m */; };
+		520646D61FCAEC5F003A44A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520646D41FCAEC5F003A44A7 /* Main.storyboard */; };
+		520646D81FCAEC5F003A44A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 520646D71FCAEC5F003A44A7 /* Assets.xcassets */; };
+		520646DB1FCAEC5F003A44A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 520646D91FCAEC5F003A44A7 /* LaunchScreen.storyboard */; };
+		520646DE1FCAEC5F003A44A7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520646DD1FCAEC5F003A44A7 /* main.m */; };
+		520646E81FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520646E71FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleTests.m */; };
+		520646F31FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520646F21FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		520646E41FCAEC5F003A44A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520646C31FCAEC5F003A44A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520646CA1FCAEC5F003A44A7;
+			remoteInfo = "mobilephone addiction index scale";
+		};
+		520646EF1FCAEC5F003A44A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 520646C31FCAEC5F003A44A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 520646CA1FCAEC5F003A44A7;
+			remoteInfo = "mobilephone addiction index scale";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		520646CB1FCAEC5F003A44A7 /* mobilephone addiction index scale.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mobilephone addiction index scale.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520646CE1FCAEC5F003A44A7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		520646CF1FCAEC5F003A44A7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		520646D11FCAEC5F003A44A7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		520646D21FCAEC5F003A44A7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		520646D51FCAEC5F003A44A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		520646D71FCAEC5F003A44A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		520646DA1FCAEC5F003A44A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		520646DC1FCAEC5F003A44A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520646DD1FCAEC5F003A44A7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520646E31FCAEC5F003A44A7 /* mobilephone addiction index scaleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobilephone addiction index scaleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520646E71FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobilephone_addiction_index_scaleTests.m; sourceTree = "<group>"; };
+		520646E91FCAEC5F003A44A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		520646EE1FCAEC5F003A44A7 /* mobilephone addiction index scaleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "mobilephone addiction index scaleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		520646F21FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mobilephone_addiction_index_scaleUITests.m; sourceTree = "<group>"; };
+		520646F41FCAEC5F003A44A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520646C81FCAEC5F003A44A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520646E01FCAEC5F003A44A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520646EB1FCAEC5F003A44A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520646C21FCAEC5F003A44A7 = {
+			isa = PBXGroup;
+			children = (
+				520646CD1FCAEC5F003A44A7 /* mobilephone addiction index scale */,
+				520646E61FCAEC5F003A44A7 /* mobilephone addiction index scaleTests */,
+				520646F11FCAEC5F003A44A7 /* mobilephone addiction index scaleUITests */,
+				520646CC1FCAEC5F003A44A7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520646CC1FCAEC5F003A44A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520646CB1FCAEC5F003A44A7 /* mobilephone addiction index scale.app */,
+				520646E31FCAEC5F003A44A7 /* mobilephone addiction index scaleTests.xctest */,
+				520646EE1FCAEC5F003A44A7 /* mobilephone addiction index scaleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520646CD1FCAEC5F003A44A7 /* mobilephone addiction index scale */ = {
+			isa = PBXGroup;
+			children = (
+				520646CE1FCAEC5F003A44A7 /* AppDelegate.h */,
+				520646CF1FCAEC5F003A44A7 /* AppDelegate.m */,
+				520646D11FCAEC5F003A44A7 /* ViewController.h */,
+				520646D21FCAEC5F003A44A7 /* ViewController.m */,
+				520646D41FCAEC5F003A44A7 /* Main.storyboard */,
+				520646D71FCAEC5F003A44A7 /* Assets.xcassets */,
+				520646D91FCAEC5F003A44A7 /* LaunchScreen.storyboard */,
+				520646DC1FCAEC5F003A44A7 /* Info.plist */,
+				520646DD1FCAEC5F003A44A7 /* main.m */,
+			);
+			path = "mobilephone addiction index scale";
+			sourceTree = "<group>";
+		};
+		520646E61FCAEC5F003A44A7 /* mobilephone addiction index scaleTests */ = {
+			isa = PBXGroup;
+			children = (
+				520646E71FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleTests.m */,
+				520646E91FCAEC5F003A44A7 /* Info.plist */,
+			);
+			path = "mobilephone addiction index scaleTests";
+			sourceTree = "<group>";
+		};
+		520646F11FCAEC5F003A44A7 /* mobilephone addiction index scaleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				520646F21FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleUITests.m */,
+				520646F41FCAEC5F003A44A7 /* Info.plist */,
+			);
+			path = "mobilephone addiction index scaleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520646CA1FCAEC5F003A44A7 /* mobilephone addiction index scale */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520646F71FCAEC5F003A44A7 /* Build configuration list for PBXNativeTarget "mobilephone addiction index scale" */;
+			buildPhases = (
+				520646C71FCAEC5F003A44A7 /* Sources */,
+				520646C81FCAEC5F003A44A7 /* Frameworks */,
+				520646C91FCAEC5F003A44A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "mobilephone addiction index scale";
+			productName = "mobilephone addiction index scale";
+			productReference = 520646CB1FCAEC5F003A44A7 /* mobilephone addiction index scale.app */;
+			productType = "com.apple.product-type.application";
+		};
+		520646E21FCAEC5F003A44A7 /* mobilephone addiction index scaleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520646FA1FCAEC5F003A44A7 /* Build configuration list for PBXNativeTarget "mobilephone addiction index scaleTests" */;
+			buildPhases = (
+				520646DF1FCAEC5F003A44A7 /* Sources */,
+				520646E01FCAEC5F003A44A7 /* Frameworks */,
+				520646E11FCAEC5F003A44A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520646E51FCAEC5F003A44A7 /* PBXTargetDependency */,
+			);
+			name = "mobilephone addiction index scaleTests";
+			productName = "mobilephone addiction index scaleTests";
+			productReference = 520646E31FCAEC5F003A44A7 /* mobilephone addiction index scaleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		520646ED1FCAEC5F003A44A7 /* mobilephone addiction index scaleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520646FD1FCAEC5F003A44A7 /* Build configuration list for PBXNativeTarget "mobilephone addiction index scaleUITests" */;
+			buildPhases = (
+				520646EA1FCAEC5F003A44A7 /* Sources */,
+				520646EB1FCAEC5F003A44A7 /* Frameworks */,
+				520646EC1FCAEC5F003A44A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				520646F01FCAEC5F003A44A7 /* PBXTargetDependency */,
+			);
+			name = "mobilephone addiction index scaleUITests";
+			productName = "mobilephone addiction index scaleUITests";
+			productReference = 520646EE1FCAEC5F003A44A7 /* mobilephone addiction index scaleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520646C31FCAEC5F003A44A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "jy w";
+				TargetAttributes = {
+					520646CA1FCAEC5F003A44A7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					520646E21FCAEC5F003A44A7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 520646CA1FCAEC5F003A44A7;
+					};
+					520646ED1FCAEC5F003A44A7 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 520646CA1FCAEC5F003A44A7;
+					};
+				};
+			};
+			buildConfigurationList = 520646C61FCAEC5F003A44A7 /* Build configuration list for PBXProject "mobilephone addiction index scale" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 520646C21FCAEC5F003A44A7;
+			productRefGroup = 520646CC1FCAEC5F003A44A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520646CA1FCAEC5F003A44A7 /* mobilephone addiction index scale */,
+				520646E21FCAEC5F003A44A7 /* mobilephone addiction index scaleTests */,
+				520646ED1FCAEC5F003A44A7 /* mobilephone addiction index scaleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520646C91FCAEC5F003A44A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520646DB1FCAEC5F003A44A7 /* LaunchScreen.storyboard in Resources */,
+				520646D81FCAEC5F003A44A7 /* Assets.xcassets in Resources */,
+				520646D61FCAEC5F003A44A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520646E11FCAEC5F003A44A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520646EC1FCAEC5F003A44A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520646C71FCAEC5F003A44A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520646D31FCAEC5F003A44A7 /* ViewController.m in Sources */,
+				520646DE1FCAEC5F003A44A7 /* main.m in Sources */,
+				520646D01FCAEC5F003A44A7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520646DF1FCAEC5F003A44A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520646E81FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		520646EA1FCAEC5F003A44A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520646F31FCAEC5F003A44A7 /* mobilephone_addiction_index_scaleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		520646E51FCAEC5F003A44A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520646CA1FCAEC5F003A44A7 /* mobilephone addiction index scale */;
+			targetProxy = 520646E41FCAEC5F003A44A7 /* PBXContainerItemProxy */;
+		};
+		520646F01FCAEC5F003A44A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 520646CA1FCAEC5F003A44A7 /* mobilephone addiction index scale */;
+			targetProxy = 520646EF1FCAEC5F003A44A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		520646D41FCAEC5F003A44A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520646D51FCAEC5F003A44A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		520646D91FCAEC5F003A44A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520646DA1FCAEC5F003A44A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520646F51FCAEC5F003A44A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		520646F61FCAEC5F003A44A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		520646F81FCAEC5F003A44A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mobilephone addiction index scale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.mobilephone-addiction-index-scale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		520646F91FCAEC5F003A44A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mobilephone addiction index scale/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.mobilephone-addiction-index-scale";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		520646FB1FCAEC5F003A44A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mobilephone addiction index scaleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.mobilephone-addiction-index-scaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobilephone addiction index scale.app/mobilephone addiction index scale";
+			};
+			name = Debug;
+		};
+		520646FC1FCAEC5F003A44A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mobilephone addiction index scaleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.mobilephone-addiction-index-scaleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mobilephone addiction index scale.app/mobilephone addiction index scale";
+			};
+			name = Release;
+		};
+		520646FE1FCAEC5F003A44A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mobilephone addiction index scaleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.mobilephone-addiction-index-scaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mobilephone addiction index scale";
+			};
+			name = Debug;
+		};
+		520646FF1FCAEC5F003A44A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "mobilephone addiction index scaleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "uk.ac.leeds.mobilephone-addiction-index-scaleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "mobilephone addiction index scale";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520646C61FCAEC5F003A44A7 /* Build configuration list for PBXProject "mobilephone addiction index scale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520646F51FCAEC5F003A44A7 /* Debug */,
+				520646F61FCAEC5F003A44A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520646F71FCAEC5F003A44A7 /* Build configuration list for PBXNativeTarget "mobilephone addiction index scale" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520646F81FCAEC5F003A44A7 /* Debug */,
+				520646F91FCAEC5F003A44A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520646FA1FCAEC5F003A44A7 /* Build configuration list for PBXNativeTarget "mobilephone addiction index scaleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520646FB1FCAEC5F003A44A7 /* Debug */,
+				520646FC1FCAEC5F003A44A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520646FD1FCAEC5F003A44A7 /* Build configuration list for PBXNativeTarget "mobilephone addiction index scaleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520646FE1FCAEC5F003A44A7 /* Debug */,
+				520646FF1FCAEC5F003A44A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520646C31FCAEC5F003A44A7 /* Project object */;
+}
